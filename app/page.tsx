@@ -9,7 +9,7 @@ export default function Home() {
         <HomeSummary />
         <Image 
         className="h-3/5 w-full md:h-full md:w-2/5"
-          src="/images/erick_pic.png"
+          src="/images/pic.png"
           alt="person"
           width={1365}
           height={2048}
