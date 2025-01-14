@@ -4,11 +4,11 @@ import { FaLink } from "react-icons/fa";
 export default function Projects() {
     const projects = [
         {
-          title: "Classification of Online Shoppers",
-          description: "Developed a classification model to predict customer purchase intent using logistic regression and decision trees. Conducted feature engineering, handled missing values, and optimized model performance.",
+          title: "Toy Sales Analytics",
+          description: "Developed a Power BI dashboard segmented by branch, product, time, customer, and order to provide actionable insights. Conducted detailed data preprocessing, analysis,and visualization in Python, optimizing sales trends and performance tracking. Enhanced data-driven decision-making through dynamic reporting and clear visual representation.",
           link: "https://github.com/ericks-on/predicting_purchase_intent",
-          techStack: ["Python", "Logistic Regression", "Decision Trees", "Scikit-learn"],
-          image: "/images/shopping.jpg" 
+          techStack: ["Python", "Power BI", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
+          image: "/images/analytics.jpg" 
         },
         {
           title: "NLP: AI-Generated Text Detection",
