@@ -29,10 +29,10 @@ export default function Projects() {
     return (
         <div className="pt-20 flex flex-col gap-6">
             <h1 className="text-6xl text-center">Projects</h1>
-            <div className="flex flex-wrap justify-center">
+            <div className="flex flex-wrap justify-center h-">
                 {projects.map((project, index) => (
                     <div key={index} className="w-full md:w-1/3 h-1/2 p-4">
-                        <div className="shadow-blue-500 shadow rounded-lg p-4">
+                        <div className="shadow-blue-500 shadow rounded-lg p-4 h-full">
                             <Image 
                                 src={project.image}
                                 alt={project.title}
