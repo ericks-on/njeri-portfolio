@@ -6,7 +6,7 @@ export default function Projects() {
         {
           title: "Toy Sales Analytics",
           description: "Developed a Power BI dashboard segmented by branch, product, time, customer, and order to provide actionable insights. Conducted detailed data preprocessing, analysis,and visualization in Python, optimizing sales trends and performance tracking. Enhanced data-driven decision-making through dynamic reporting and clear visual representation.",
-          link: "https://github.com/ericks-on/predicting_purchase_intent",
+          link: "https://github.com/OjuokOchi/TOY-SALES-ANALYTICS",
           techStack: ["Python", "Power BI", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
           image: "/images/analytics.jpg" 
         },
@@ -18,11 +18,11 @@ export default function Projects() {
           image: "/images/aitext.jpg" 
         },
         {
-          title: "Fraud Detection System for Insurance Claims",
-          description: "Developed a Logistic Regression model fine-tuned through Grid Search to detect fraudulent claims. Created dashboards for monitoring claims and provided insights through Tableau.",
-          link: "https://github.com/ericks-on/insurance-fraud-detection",
-          techStack: ["Python", "Logistic Regression", "Grid Search", "Tableau", "TensorFlow", "Keras"],
-          image: "/images/insurance.png" 
+          title: "Coffee Data Analysis and modeling project",
+          description: "Predicted domestic coffee consumption by analyzing production data. Used engineered features to improve model accuracy.",
+          link: "https://github.com/njeri-mb/Coffee-Data-Analysis-and-Modeling",
+          techStack: ["Python", "Linear Regression", "Grid Search", "Scikit-Learn", "Matplotlib", "Pandas"],
+          image: "/images/coffee.webp" 
         }
       ];
       
