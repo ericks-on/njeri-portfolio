@@ -5,7 +5,7 @@ export default function Projects() {
     const projects = [
         {
           title: "Toy Sales Analytics",
-          description: "Developed a Power BI dashboard segmented by branch, product, time, customer, and order to provide actionable insights. Conducted detailed data preprocessing, analysis,and visualization in Python, optimizing sales trends and performance tracking. Enhanced data-driven decision-making through dynamic reporting and clear visual representation.",
+          description: "Developed a Power BI dashboard segmented by branch, product, time, customer, and order, providing actionable insights. Optimized sales trends and performance tracking through Python-based data preprocessing, analysis, and visualization, enhancing decision-making with dynamic and clear reporting.",
           link: "https://github.com/OjuokOchi/TOY-SALES-ANALYTICS",
           techStack: ["Python", "Power BI", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
           image: "/images/analytics.jpg" 
