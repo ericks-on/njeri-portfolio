@@ -52,7 +52,7 @@ export default function HomeSummary() {
                 <Link href={socials.github} className="h-16 w-16" target="blank">
                     <FaGithub   className="h-16 w-16"/>
                 </Link>
-                <Link href={socials.linkedin} className="h-16 w-16" target="blank>
+                <Link href={socials.linkedin} className="h-16 w-16" target="blank">
                     <FaLinkedinIn  className="h-16 w-16"/>
                 </Link>
             </div>
