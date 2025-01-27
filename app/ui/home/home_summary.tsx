@@ -4,8 +4,7 @@ import { FaGithub, FaInstagram, FaKaggle, FaLinkedinIn } from "react-icons/fa";
 export default function HomeSummary() {
     const socials = {
         github: "https://www.github.com/njeri-mb",
-        linkedin: "www.linkedin.com/in/njeri-mburu-datascientist",
-        instagram: "https://www.instagram.com/njeri.mburu_",
+        linkedin: "https://www.linkedin.com/in/njeri-mburu-datascientist",
     }
     return (
         <div className="flex flex-col px-6 gap-6 md:w-3/5 ">
@@ -50,14 +49,11 @@ export default function HomeSummary() {
             </div>
             {/* socials icons with link */}
             <div className="flex gap-4">
-                <Link href={socials.github} className="h-16 w-16">
+                <Link href={socials.github} className="h-16 w-16" target="blank">
                     <FaGithub   className="h-16 w-16"/>
                 </Link>
-                <Link href={socials.linkedin} className="h-16 w-16">
+                <Link href={socials.linkedin} className="h-16 w-16" target="blank>
                     <FaLinkedinIn  className="h-16 w-16"/>
-                </Link>
-                <Link href={socials.instagram} className="h-16 w-16">
-                    <FaInstagram  className="h-16 w-16"/>
                 </Link>
             </div>
             <div className="flex gap-4">
